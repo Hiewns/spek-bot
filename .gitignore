@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Environment secrets
+.env
+
+# Audio Cache
+audio_cache/
+test_audio_cache/
+test_services_cache/
+
+# Edge-TTS proxy bypass sentinel (local only)
+edgetts-noproxy.txt
+
+# IDE / Editor
+.vscode/
+.idea/
