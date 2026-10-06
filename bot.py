@@ -101,6 +101,7 @@ class TTSBot(commands.Bot):
             "commands.admin_commands",
             "commands.tts_commands",
             "listeners.message_listener",
+            "listeners.attachment_listener",
         ]
         self.loaded_cogs = []
         for cog in cogs:
